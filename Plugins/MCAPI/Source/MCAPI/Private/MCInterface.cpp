@@ -4,3 +4,14 @@
 #include "MCInterface.h"
 
 // Add default functionality here for any IMCInterface functions that are not pure virtual.
+
+
+// Return the URL to your store page
+void IMCInterface::MCGetPluginURL(FString & Message)
+{
+}
+
+// Return the official plugin message from the creator
+void IMCInterface::MCGetPluginMessage(FString & Message)
+{
+}
