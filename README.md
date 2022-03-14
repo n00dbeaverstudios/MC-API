@@ -1,4 +1,7 @@
 # MC-API
+
+## Marketplace Creators API 
+
 Community-based Epic Marketplace API for Marketplace Creators to share dependencies between plugins and BP projects.
 
 If you want to be a part of this project, request access to this repo and join the Marketplace Creator discord for better communication channels. The more creators who join, the better!  
