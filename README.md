@@ -14,7 +14,7 @@ For QoL you must put checks on your functions to warn the end user if the API do
 
 #### main - based on 4.25
 
-  This branch contains any universal functions that will be required for your asset to communicate with others, you need to base your branch off this. 
+  This branch contains any universal functions that will be required for your asset to communicate with others, you need to base your branch off this and sync any changes. 
   
   Parent class functions are MCAPI::
   
