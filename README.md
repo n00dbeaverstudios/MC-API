@@ -10,9 +10,9 @@ For fleshing out ideas with others, or to communicate your intentions, create an
 
 > For QoL you must put checks on your functions to warn the end user if the API doesn't have access to the plugin or BP asset, and direct them to the corresponding store page via calling the Notification API on main, which has a button that opens a URL. 
 
-### BRANCHES
+## BRANCHES
 
-#### main - based on 4.25
+### main - based on 4.25
 
   This branch contains any universal functions that will be required for your asset to communicate with others, you need to base your branch off this and sync any changes. 
   
@@ -31,7 +31,7 @@ For fleshing out ideas with others, or to communicate your intentions, create an
 - IMCInterface::GetPluginURL();
 - IMCInterface::GetPluginMessage();
 
-#### "name of studio" Branch
+### "name of studio" Branch
 
 If you are a member of this repo, feel free to create your own branch based off "main".
   
