@@ -24,6 +24,13 @@ For QoL you must put checks on your functions to warn the end user if the API do
   - IMCInterface::PluginCheck(); (for checking if the targeted plugin / BP asset is installed)
   - IMCInterface::NotifyStorePage(Message, URL); (calls a notification that contains a button to direct end user to store page)
 
+Some interface functions will require you to fill out the cpp portion of the interface to return specific data that we want to be publicly accessible - by default this will include functions to get the store page URL and custom message from the creator's interface to display in another creator's call of that interface, but is not limited to the base interface class.
+
+  The following examples will require you return your data in the cpp document;
+
+- IMCInterface::GetPluginURL();
+- IMCInterface::GetPluginMessage();
+
 #### "name of studio" Branch
 
 If you are a member of this repo, feel free to create your own branch based off "main".
