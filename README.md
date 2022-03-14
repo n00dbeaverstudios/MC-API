@@ -20,9 +20,9 @@ For QoL you must put checks on your functions to warn the end user if the API do
   
   Some examples of what functions "main" should include for all branches to use;
   
-  - MCAPI::StdNotification(Message); (for warning end user)
-  - MCAPI::PluginCheck(); (for checking if the targeted plugin / BP asset is installed)
-  - MCAPI::NotifyStorePage(Message, URL); (calls a notification that contains a button to direct end user to store page)
+  - IMCInterface::StdNotification(Message); (for warning end user)
+  - IMCInterface::PluginCheck(); (for checking if the targeted plugin / BP asset is installed)
+  - IMCInterface::NotifyStorePage(Message, URL); (calls a notification that contains a button to direct end user to store page)
 
 #### "name of studio" Branch
 
@@ -32,10 +32,10 @@ If you are a member of this repo, feel free to create your own branch based off 
   
   Your API for each asset you want communication with should be appending MCAPI with an underscore and your asset name, e.g.;
   
-   - MCAPI_ACF::YourAPIFunction();
-   - MCAPI_InputBuffer::YourAPIFunction();
-   - MCAPI_n00dFootsteps::YourAPIFunction();
-   - MCAPI_VoxelPlugin::YourAPIFunction();
+   - IMCInterfaceACF::YourAPIFunction();
+   - IMCInterfaceInputBuffer::YourAPIFunction();
+   - IMCInterfaceN00dFootsteps::YourAPIFunction();
+   - IMCInterfaceVoxelPlugin::YourAPIFunction();
 
 etc...
 
