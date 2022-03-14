@@ -31,12 +31,17 @@ public:
 // PUBLICLY ACCESSIBLE DATA 
 ///////////////////////////////////////////////////////////////
 
-	// These must be filled out in C++ to return the desired strings. 
+	/* These must be filled out in C++ to return the desired strings. 
+	*
+	*	The marketplace creator will not have access to your base classes, therefore cannot return the string in BP
+	*	They will always have access to your interface class though. Ergo this needs to be filled in C++.
+	*	
+	*/
 
 	// Get the plugin URL for the creator's Store Page
-		void MCGetPluginURL(FString & URL);
+		void MCGetStorePageURL(FString & URL);
 	// Get the custom message the creator has implemented 
-		void MCGetPluginMessage(FString & Message);
+		void MCGetCreatorMessage(FString & Message);
 
 
 ///////////////////////////////////////////////////////////////

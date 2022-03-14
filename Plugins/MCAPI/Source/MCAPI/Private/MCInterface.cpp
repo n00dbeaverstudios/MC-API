@@ -7,11 +7,11 @@
 
 
 // Return the URL to your store page
-void IMCInterface::MCGetPluginURL(FString & Message)
+void IMCInterface::MCGetStorePageURL(FString & Message)
 {
 }
 
 // Return the official plugin message from the creator
-void IMCInterface::MCGetPluginMessage(FString & Message)
+void IMCInterface::MCGetCreatorMessage(FString & Message)
 {
 }
