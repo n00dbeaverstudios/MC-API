@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// This is a free and open source plugin based on the MIT license for Marketplace Creators to leverage API calls in their own assets.
 
 #pragma once
 
