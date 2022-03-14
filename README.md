@@ -8,7 +8,7 @@ If you want to be a part of this project, request access to this repo and join t
 
 For fleshing out ideas with others, or to communicate your intentions, create an Issue.
 
-For QoL you must put checks on your functions to warn the end user if the API doesn't have access to the plugin or BP asset, and direct them to the corresponding store page via calling the Notification API on main, which has a button that opens a URL. 
+> For QoL you must put checks on your functions to warn the end user if the API doesn't have access to the plugin or BP asset, and direct them to the corresponding store page via calling the Notification API on main, which has a button that opens a URL. 
 
 ### BRANCHES
 
@@ -24,7 +24,7 @@ For QoL you must put checks on your functions to warn the end user if the API do
   - IMCInterface::PluginCheck(); (for checking if the targeted plugin / BP asset is installed)
   - IMCInterface::NotifyStorePage(Message, URL); (calls a notification that contains a button to direct end user to store page)
 
-Some interface functions will require you to fill out the cpp portion of the interface to return specific data that we want to be publicly accessible - by default this will include functions to get the store page URL and custom message from the creator's interface to display in another creator's call of that interface, but is not limited to the base interface class.
+> Some interface functions will require you to fill out the cpp portion of the interface to return specific data that we want to be publicly accessible - by default this will include functions to get the store page URL and custom message from the creator's interface to display in another creator's call of that interface, but is not limited to the base interface class.
 
   The following examples will require you return your data in the cpp document;
 
@@ -46,5 +46,5 @@ If you are a member of this repo, feel free to create your own branch based off 
 
 etc...
 
-Ideally we should contain all your product API calls in one branch to keep things organised, and so that you can easily keep in sync with upstream. So if you have multiple products, create multiple interfaces within the same branch for each of those relevant assets. 
+> Ideally we should contain all your product API calls in one branch to keep things organised, and so that you can easily keep in sync with upstream. So if you have multiple products, create multiple interfaces within the same branch for each of those relevant assets. 
 
