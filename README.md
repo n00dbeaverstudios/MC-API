@@ -15,4 +15,4 @@ For QoL you must put checks on your functions to warn the end user if the API do
 
 #### "name of studio" Branch
   
-  This is where you'll find specific API sets that the creator has offered. If you want your asset to communicate with theirs, you need to download the desired API you need from this branch and add it to your project. You will then be able to call functions via their provided API, even if you don't have their plugin / BP asset installed. 
+  This is where you'll find specific API sets that the creator has offered. If you want your asset to communicate with theirs, download the desired API you need from this branch and add it to your project. You will then be able to call functions via their provided API, even if you don't have their plugin / BP asset installed. 
