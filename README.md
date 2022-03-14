@@ -30,6 +30,7 @@ For QoL you must put checks on your functions to warn the end user if the API do
    - MCAPI_ACF::YourAPIFunction();
    - MCAPI_InputBuffer::YourAPIFunction();
    - MCAPI_n00dFootsteps::YourAPIFunction();
+   - MCAPI_VoxelPlugin::YourAPIFunction();
 
 etc...
 
