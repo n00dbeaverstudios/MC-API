@@ -25,8 +25,10 @@ For QoL you must put checks on your functions to warn the end user if the API do
   - MCAPI::NotifyStorePage(Message, URL); (calls a notification that contains a button to direct end user to store page)
 
 #### "name of studio" Branch
+
+If you are a member of this repo, feel free to create your own branch based off "main".
   
-  This is where you'll find specific API sets that the creator has offered. If you want your asset to communicate with theirs, download the desired API you need from this branch and add it to your project. You will then be able to call functions via their provided API, even if you don't have the paid plugin / BP asset installed. 
+  Each of these branches is where you'll find specific API sets that the creator has offered. If you want your asset to communicate with theirs, download the desired API you need from this branch and add it to your project. You will then be able to call functions via their provided API, even if you don't have the paid plugin / BP asset installed. 
   
   Your API for each asset you want communication with should be appending MCAPI with an underscore and your asset name, e.g.;
   
@@ -37,5 +39,5 @@ For QoL you must put checks on your functions to warn the end user if the API do
 
 etc...
 
-
+Ideally we should contain all your product API calls in one branch to keep things organised, and so that you can easily keep in sync with upstream. So if you have multiple products, create multiple interfaces within the same branch for each of those relevant assets. 
 
