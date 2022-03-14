@@ -16,9 +16,9 @@ For QoL you must put checks on your functions to warn the end user if the API do
 
   This branch contains any universal functions that will be required for your asset to communicate with others, you need to base your branch off this and sync any changes. 
   
-  Parent class functions are MCAPI::
+  Parent class functions are IMCInterface::
   
-  Some examples of what functions "main" should include for all branches to use;
+  Some examples of what functions "main" includes for all branches to use;
   
   - IMCInterface::StdNotification(Message); (for warning end user)
   - IMCInterface::PluginCheck(); (for checking if the targeted plugin / BP asset is installed)
@@ -30,7 +30,7 @@ If you are a member of this repo, feel free to create your own branch based off 
   
   Each of these branches is where you'll find specific API sets that the creator has offered. If you want your asset to communicate with theirs, download the desired API you need from this branch and add it to your project. You will then be able to call functions via their provided API, even if you don't have the paid plugin / BP asset installed. 
   
-  Your API for each asset you want communication with should be appending MCAPI with an underscore and your asset name, e.g.;
+  Your API for each asset you want communication with should be appending IMCInterface with your asset name, e.g.;
   
    - IMCInterfaceACF::YourAPIFunction();
    - IMCInterfaceInputBuffer::YourAPIFunction();
