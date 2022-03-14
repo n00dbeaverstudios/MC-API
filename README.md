@@ -13,6 +13,8 @@ For QoL you must put checks on your functions to warn the end user if the API do
 
   This branch contains any universal functions that will be required for your asset to communicate with others, you need to base your branch off this. 
   
+  Parent class functions are MCAPI::
+  
   Some examples of what functions "main" should include for all branches to use;
   
   - MCAPI::StdNotification(Message); (for warning end user)
@@ -22,3 +24,14 @@ For QoL you must put checks on your functions to warn the end user if the API do
 #### "name of studio" Branch
   
   This is where you'll find specific API sets that the creator has offered. If you want your asset to communicate with theirs, download the desired API you need from this branch and add it to your project. You will then be able to call functions via their provided API, even if you don't have the paid plugin / BP asset installed. 
+  
+  Your API for each asset you want communication with should be appending MCAPI with an underscore and your asset name, e.g.;
+  
+   - MCAPI_ACF::YourAPIFunction();
+   - MCAPI_InputBuffer::YourAPIFunction();
+   - MCAPI_n00dFootsteps::YourAPIFunction();
+
+etc...
+
+
+
