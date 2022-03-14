@@ -12,6 +12,12 @@ For QoL you must put checks on your functions to warn the end user if the API do
 #### main 
 
   This branch contains any universal functions that will be required for your asset to communicate with others, you need to base your branch off this. 
+  
+  Some examples of what functions "main" should include for all branches to use;
+  
+  MCAPI::Notification(Message); (for warning end user)
+  MCAPI::PluginCheck(); (for checking if the targeted plugin / BP asset is installed)
+  MCAPI::OpenStorePage(URL); (calls a notification that contains a button to direct end user to store page)
 
 #### "name of studio" Branch
   
