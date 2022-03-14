@@ -17,7 +17,7 @@ For QoL you must put checks on your functions to warn the end user if the API do
   
   - MCAPI::Notification(Message); (for warning end user)
   - MCAPI::PluginCheck(); (for checking if the targeted plugin / BP asset is installed)
-  - MCAPI::OpenStorePage(URL); (calls a notification that contains a button to direct end user to store page)
+  - MCAPI::OpenStorePage(Message, URL); (calls a notification that contains a button to direct end user to store page)
 
 #### "name of studio" Branch
   
